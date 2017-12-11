@@ -73,7 +73,7 @@ public class Person {
 		System.out.println(Person.getAotuMan() == Person.getAotuMan());
 		// 可以得到子类,那么非static的方法就可以调用类继承的方法了
 		System.out.println(Person.getMan());
-		//可以简写泛型,貌似google工具包里面有类似的方案
+		//可以简写泛型,貌似google工具包里面有类似的方案,自动推导方案
 		Map<String, List<String>> map = Person.newMap();
 		map.put("String", new ArrayList<>());
 	}
