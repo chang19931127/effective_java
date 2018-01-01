@@ -24,7 +24,7 @@ public class NonStaticClass {
 }
 class Drink{
 	private String name = "小王";
-	public class Eat{
+	public class Eat {
 		public void eat(){
 			hello();
 			System.out.println(name + "能吃");

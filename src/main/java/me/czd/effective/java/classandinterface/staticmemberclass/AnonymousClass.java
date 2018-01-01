@@ -8,7 +8,7 @@ package me.czd.effective.java.classandinterface.staticmemberclass;
  */
 public class AnonymousClass {
 	public static void main(String[] args) {
-		new Thread(new Runnable() {
+		new Thread(new Runnable() {{System.out.println("kaixin");}
 			@Override
 			public void run() {
 				System.out.println("thread");
