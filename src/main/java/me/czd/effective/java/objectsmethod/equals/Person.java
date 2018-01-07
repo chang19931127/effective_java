@@ -33,6 +33,7 @@ public class Person {
 	 */
 	
 	public static void main(String[] args) {
+		System.out.println(new Person("开心",12).equals(null));
 		Map<Person, String> map = new HashMap<>();
 		map.put(new Person("开心",12), "开心啊");
 		//由于hashMap的原因，所以这里是null！！！因此我们需要读HashMap的源码，很熟
